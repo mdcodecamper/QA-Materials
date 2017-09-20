@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite: All of Person, Equipment and Task">
+
+    <!-- All Person -->
+    <test name="SmokeTests_All_Person_API"  preserve-order="true">
+        <classes>
+            <!-- PERSON DETACH -->
+            <class
+                    name="personTestSuites.personDetach.ADD.TEST002_DETACH_ADD_SW_Curr_To_Plus3" />
+            <class
+                    name="personTestSuites.personDetach.EDIT.TEST002_DETACH_EDIT_SW_From_B_Curr_To_Plus2" />
+            <class
+                    name="personTestSuites.personDetach.DELETE.TEST002_DETACH_DELETE_SW_From_B_Curr_To_Plus2" />
+            <class
+                    name="personTestSuites.personDetach.ADD.TEST001_DETACH_ADD_SUP_Curr_To_Plus3_Validate_Present_Past_Future_MINERVA_3789" />
+            <class
+                    name="personTestSuites.personDetach.EDIT.TEST001_DETACH_EDIT_SUP_From_A_Curr_To_Plus2" />
+            <class
+                    name="personTestSuites.personDetach.DELETE.TEST001_DETACH_DELETE_SUP_From_A_Curr_To_Plus2" />
+
+            <!-- PERSON MDA -->
+            <class name="personTestSuites.personMda.ADD.TEST001_MDA_ADD_SUP_Curr_Plus1_To_Plus3_Validate_Present_Past_Future" />
+            <class
+                    name="personTestSuites.personMda.ADD.TEST001_MDA_ADD_SW_Curr_To_Plus3" />
+            <class
+                    name="personTestSuites.personMda.EDIT.TEST001_MDA_EDIT_SW_Curr_To_Plus2" />
+            <class
+                    name="personTestSuites.personMda.DELETE.TEST001_MDA_DELETE_SW_Curr_To_Plus2" />
+
+            <!-- PERSON UNAVAILABLE -->
+            <class
+                    name="personTestSuites.personSpPosition.ADD.TEST001_SPECIAL_POS_ADD_SW_From_Curr_To_Plus3" />
+            <class
+                    name="personTestSuites.personSpPosition.ADD.TEST002_SPECIAL_POS_ADD_Validate_Present_Past_Future" />
+            <class
+                    name="personTestSuites.personSpPosition.EDIT.TEST002_SPECIAL_POS_EDIT_SW_OpenDate_To_AnyValidDate" />
+            <class
+                    name="personTestSuites.personSpPosition.EDIT.TEST001_SPECIAL_POS_EDIT_SW_CurrentDate_To_OpenDate" />
+            <class
+                    name="personTestSuites.personSpPosition.DELETE.TEST001_SPECIAL_POS_DELETE_SW_From_Curr_To_Plus2" />
+
+        </classes>
+    </test> <!-- Test -->
+
+    <!-- All Equipment -->
+    <test name="SmokeTests_All_EQUIPMENT_APIs" preserve-order="true">
+        <classes>
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Detach.TEST001_RearLoaders_Available"/>
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Accept.TEST001_RearLoaders_Available"/>
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Cancel.TEST001_RearLoaders_Available"/>
+            <class
+                    name="equipmentTestSuites.equipmentDown.Add.TEST001_RearLoaders_Available_3Codes"/>
+            <class
+                    name="equipmentTestSuites.equipmentDown.Edit.TEST001_RearLoaders_2Codes"/>
+            <class
+                    name="equipmentTestSuites.equipmentSnowUpdate.TEST001_RearLoaders_Available"/>
+            <class
+                    name="equipmentTestSuites.equipmentUp.TEST001_RearLoaders"/>
+            <class
+                    name="equipmentTestSuites.equipmentUpdateLoad.TEST001_RearLoaders_Available_to_RelayOrganics"/>
+            <class
+                name="equipmentTestSuites.equipmentUpdateLoad.TEST003_Minerva4030"/>
+            <class
+                    name="equipmentTestSuites.equipmentUpdateLoad.TEST005_Relay_to_Detach_to_Accept_to_Empty"/>
+        </classes>
+    </test>
+
+    <!-- All Task -->
+    <test name="SmokeTests_All_TASK_APIs" preserve-order="true">
+        <classes>
+            <class
+                    name="taskTestSuites.taskAddShift.TEST001_Custom_ActiveShift" />
+            <class
+                    name="taskTestSuites.taskAddTasks.TEST001_Section_ActiveShift" />
+            <class
+                    name="taskTestSuites.taskAssign.taskEquipmentAssign.TEST001_RearLoaders_Available_HHRefuse_Section1_Task1_StartedShift" />
+            <class
+                    name="taskTestSuites.taskAssign.taskPersonAssign.TEST001_2SW_HHRefuse_Section1_Task1_StartedShift" />
+            <class
+                    name="taskTestSuites.taskAssign.taskEquipmentAssign.TEST002_Minerva3350" />
+            <class
+                    name="taskTestSuites.taskAssign.taskEquipmentAssign.TEST003_ActiveShift_EndTask" />
+            <class
+                    name="taskTestSuites.taskAssignmentType.TEST001_NextDay_WithoutUnavailable"/>
+            <class
+                    name="taskTestSuites.taskAssignmentType.TEST002_Minerva4256"/>
+            <class
+                    name="taskTestSuites.taskAssignmentType.TEST003_Minerva4356"/>
+            <class
+                    name="taskTestSuites.taskAssignmentType.TEST004_Minerva4357"/>
+            <class
+                    name="taskTestSuites.taskDeleteShift.TEST001_with_2Section" />
+            <class
+                    name="taskTestSuites.taskDeleteTask.TEST001_with_Section" />
+            <class
+                    name="taskTestSuites.taskDeleteTask.TEST002_with_EquipmentAssigned" />
+            <class
+                    name="taskTestSuites.taskLoadPersonnel.TEST001_1SUP_1SW" />
+            <class
+                    name="taskTestSuites.taskPartialRoute.TEST001_Minerva4360" />
+            <class
+                    name="taskTestSuites.taskPartialRoute.TEST002_Minerva4359" />
+            <class
+                    name="taskTestSuites.taskTemplate.TEST001_Save_LoadTemplate_with_HHRefuse_CleaningBaskets" />
+            <class
+                    name="taskTestSuites.taskTemplate.TEST002_Load_Template_Minerva4328" />
+            <class
+                    name="taskTestSuites.taskUnassign.taskEquipmentUnassign.TEST001_RearLoaders_HHRefuse_Section2_NotStartedShift" />
+            <class
+                    name="taskTestSuites.taskUnassign.taskPersonUnassign.TEST001_SW_HHRefuse_Section2_NotStartedShift" />
+            <class
+                    name="taskTestSuites.taskAssign.taskSupervisionAssign.TEST001_Section_Header" />
+
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

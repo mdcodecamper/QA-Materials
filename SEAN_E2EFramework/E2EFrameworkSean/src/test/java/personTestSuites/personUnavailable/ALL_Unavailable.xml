@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Person Unavailable Test"  preserve-order="true">
+		<classes>
+			<!-- ALL Tests are defined below -->
+			<class
+					name="personTestSuites.personUnavailable.ADD.TEST001_ADD_Unavailable_SW_Curr_To_Curr" />
+			<class
+					name="personTestSuites.personUnavailable.EDIT.TEST001_UNAVAILABLE_EDIT_SW_Curr_To_Plus2" />
+			<class
+					name="personTestSuites.personUnavailable.DELETE.TEST001_UNAVAILABLE_DELETE_SW_Curr_To_Plus2" />
+			<class
+					name="personTestSuites.personUnavailable.ADD.TEST003_ADD_Unavailable_SUP_Curr_To_Plus3"/>
+	<!--		<class
+					name="personTestSuites.personUnavailable.EDIT.TEST002_UNAVAILABLE_EDIT_SUP_CurrPlus1_To_Plus2"/>-->
+			<!--<class
+					name="personTestSuites.personUnavailable.DELETE.TEST002_UNAVAILABLE_DELETE_SUP_CurrPlus1_To_Plus2"/>-->
+			<class
+				     name="personTestSuites.personUnavailable.CANCEL.TEST001_REVERSE_CANCEL_CHART" />
+			<class
+				     name="personTestSuites.personUnavailable.CANCEL.TEST001_REVERSE_CANCEL_CHART" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite: FrameworkTester">
+	<test name="Testing Framework" preserve-order="true">
+		<classes>
+				<class
+					name="taskTestSuites.taskAddTasks.TEST001_Section_ActiveShift" />
+			<class
+					name="personTestSuites.personDetach.ADD.TEST002_DETACH_ADD_SW_Curr_To_Plus3" />
+			<class
+					name="equipmentTestSuites.equipmentDetach.Accept.TEST002_DualBins_Available" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite: Person AND Board">
+
+    <!-- All Person -->
+    <test name="REGRESSION_All_PERSON_BOARD_recACT_APIs"  preserve-order="true">
+        <classes>
+            <!--  ******************* DISPLAY BOARD *******************-->
+            <class name="boardTestSuites.TEST001_DisplayBoard_Visibility_MINERVA_3933" />
+
+            <!--  ******************* RECENT ACTIVITIES  *******************-->
+            <class
+                    name="recentActivities.person.TEST001_PERSON_MDA_Recent_Activities" />
+            
+            <!--  ******************* PERSON DETACH  *******************-->
+            <class
+                    name="personTestSuites.personDetach.ADD.TEST002_DETACH_ADD_SW_Curr_To_Plus3" />
+            <class
+                    name="personTestSuites.personDetach.EDIT.TEST002_DETACH_EDIT_SW_From_B_Curr_To_Plus2" />
+            <class
+                    name="personTestSuites.personDetach.DELETE.TEST002_DETACH_DELETE_SW_From_B_Curr_To_Plus2" />
+
+            <class
+                    name="personTestSuites.personDetach.EDIT.TEST001_DETACH_EDIT_SUP_From_A_Curr_To_Plus2" />
+            <class
+                    name="personTestSuites.personDetach.DELETE.TEST001_DETACH_DELETE_SUP_From_A_Curr_To_Plus2" />
+            <class
+                    name="personTestSuites.personDetach.ADD.TEST001_DETACH_ADD_SUP_Curr_To_Plus3_Validate_Present_Past_Future_MINERVA_3789" />
+            <class
+                    name="personTestSuites.personDetach.ADD.TEST004_DETACH_ADD_SW_PERMANENT_MINERVA_3788" />
+            <class
+                    name="personTestSuites.personDetach.ADD.TEST005_DETACH_AND_SP_POS_ADD_MINERVA_3830" />
+            <class
+                    name="personTestSuites.personDetach.ADD.TEST006_DETACH_PERSONELL_VERIFY_COLOR_MINERVA_3809" />
+
+            <!-- ******************* PERSON MDA ******************* -->
+            <class name="personTestSuites.personMda.ADD.TEST001_MDA_ADD_SUP_Curr_Plus1_To_Plus3_Validate_Present_Past_Future" />
+            <class
+                    name="personTestSuites.personMda.ADD.TEST001_MDA_ADD_SW_Curr_To_Plus3" />
+            <class
+                    name="personTestSuites.personMda.EDIT.TEST001_MDA_EDIT_SW_Curr_To_Plus2" />
+            <class
+                    name="personTestSuites.personMda.DELETE.TEST001_MDA_DELETE_SW_Curr_To_Plus2" />
+            <class
+                    name="personTestSuites.personMda.ADD.TEST003_PERSONNEL_MDA_and_DETACH_MINERVA3825"/>
+
+            <!--  ******************* PERSON SPECIAL POSITION ******************* -->
+            <class
+                    name="personTestSuites.personSpPosition.ADD.TEST001_SPECIAL_POS_ADD_SW_From_Curr_To_Plus3" />
+            <class
+                    name="personTestSuites.personSpPosition.ADD.TEST002_SPECIAL_POS_ADD_Validate_Present_Past_Future" />
+            <class
+                    name="personTestSuites.personSpPosition.EDIT.TEST002_SPECIAL_POS_EDIT_SW_OpenDate_To_AnyValidDate" />
+            <class
+                    name="personTestSuites.personSpPosition.EDIT.TEST001_SPECIAL_POS_EDIT_SW_CurrentDate_To_OpenDate" />
+            <class
+                    name="personTestSuites.personSpPosition.DELETE.TEST001_SPECIAL_POS_DELETE_SW_From_Curr_To_Plus2" />
+
+            <!--  ******************* PERSON UNAVAILABLE *******************-->
+            <class
+                    name="personTestSuites.personUnavailable.ADD.TEST001_UNAVAILABLE_ADD_SW_Curr_To_Curr" />
+            <class
+                    name="personTestSuites.personUnavailable.EDIT.TEST001_UNAVAILABLE_EDIT_SW_Curr_To_Plus2" />
+            <class
+                    name="personTestSuites.personUnavailable.DELETE.TEST001_UNAVAILABLE_DELETE_SW_Curr_To_Plus2" />
+            <class
+                    name="personTestSuites.personUnavailable.ADD.TEST003_UNAVAILABLE_ADD_SUP_Curr_To_Plus3"/>
+<!--            <class
+                    name="personTestSuites.personUnavailable.EDIT.TEST002_UNAVAILABLE_EDIT_SUP_CurrPlus1_To_Plus2"/>
+            <class
+                    name="personTestSuites.personUnavailable.DELETE.TEST002_UNAVAILABLE_DELETE_SUP_CurrPlus1_To_Plus2"/>-->
+            <class
+                    name="personTestSuites.personUnavailable.CANCEL.TEST001_REVERSE_CANCEL_CHART" />
+            <class
+                    name="personTestSuites.personUnavailable.CANCEL.TEST001_REVERSE_CANCEL_CHART" />
+
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->

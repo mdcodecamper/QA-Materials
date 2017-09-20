@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite: Equipment and Task Regression">
+    <!-- All Equipment -->
+    <test name="Regression_All_EQUIPMENT_APIs" preserve-order="true">
+
+        <classes>
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Accept.TEST001_RearLoaders_Available"/>
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Accept.TEST002_DualBins_Available"/>
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Accept.TEST003_Minerva3326"/>
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Cancel.TEST001_RearLoaders_Available"/>
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Cancel.TEST002_DualBins_Available"/>
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Detach.TEST001_RearLoaders_Available"/>
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Detach.TEST002__DualBins_Relay_RecycMisc"/>
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Detach.TEST003_RearLoaders_Down"/>
+            <class
+                name="equipmentTestSuites.equipmentDetach.Detach.TEST004_Detach_A_to_B_to_C"/>
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Detach.TEST005_Detach_Accept_Cancel_Pagination"/>
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Detach.TEST006_RearLoaders_RelayCollection"/>
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Detach.TEST007_Detach_Cancel"/>
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Detach.TEST008_Detach_Accept_Refresh"/>
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Detach.TEST009_Detach_Change_Time" />
+            <class
+                    name="equipmentTestSuites.equipmentDown.Add.TEST001_RearLoaders_Available_3Codes"/>
+            <class
+                    name="equipmentTestSuites.equipmentDown.Add.TEST002_Down_and_Up_History"/>
+            <class
+                    name="equipmentTestSuites.equipmentDown.Add.TEST003_MechanicalBrooms_ServiceField_FreeText"/>
+            <class
+                    name="equipmentTestSuites.equipmentDown.Edit.TEST001_RearLoaders_2Codes"/>
+            <class
+                    name="equipmentTestSuites.equipmentGrouping.TEST001_Equipment_Groups_Expand_Collapse" />
+            <class
+                    name="equipmentTestSuites.equipmentGrouping.TEST002_Equipment_Groups_Counts_Verification1"/>
+            <class
+                    name="equipmentTestSuites.equipmentSnowUpdate.TEST006_Snow_Readiness_Rules"/>
+            <class
+                    name="equipmentTestSuites.equipmentSnowUpdate.TEST001_RearLoaders_Available"/>
+            <class
+                    name="equipmentTestSuites.equipmentSnowUpdate.TEST002_RelayMisc_Down_SnowUpdate_Up"/>
+            <class
+                    name="equipmentTestSuites.equipmentSnowUpdate.TEST003_Equipment_FrontEndLoader"/>
+            <class
+                    name="equipmentTestSuites.equipmentSnowUpdate.TEST004_Up_and_Down_Snow_Readiness"/>
+            <class
+                    name="equipmentTestSuites.equipmentSnowUpdate.TEST005_Snow_History_Pagination"/>
+            <class
+                    name="equipmentTestSuites.equipmentSnowUpdate.TEST009_Update_Equipment_and_Snow_Readiness" />
+            <class
+                    name="equipmentTestSuites.equipmentUp.TEST001_RearLoaders"/>
+            <class
+                    name="equipmentTestSuites.equipmentUp.TEST002_Minerva2979"/>
+            <class
+                    name="equipmentTestSuites.equipmentUp.TEST004_Equipment_UP_Time_Update"/>
+            <class
+                    name="equipmentTestSuites.equipmentUpdateLoad.TEST001_RearLoaders_Available_to_RelayOrganics"/>
+            <class
+                    name="equipmentTestSuites.equipmentUpdateLoad.TEST002_DualBins_Available_to_RelayCollection"/>
+            <class
+                    name="equipmentTestSuites.equipmentUpdateLoad.TEST003_Minerva4030"/>
+            <class
+                    name="equipmentTestSuites.equipmentUpdateLoad.TEST004_Down_to_RolloverRecycMisc_to_Down_to_Empty"/>
+            <class
+                    name="equipmentTestSuites.equipmentUpdateLoad.TEST005_Relay_to_Detach_to_Accept_to_Empty"/>
+            <class
+                    name="equipmentTestSuites.equipmentUpdateLoad.TEST006_Load_History_Pagination"/>
+        </classes>
+
+    </test>
+
+
+</suite> <!-- Suite -->

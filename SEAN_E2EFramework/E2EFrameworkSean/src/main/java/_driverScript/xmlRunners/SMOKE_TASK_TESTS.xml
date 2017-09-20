@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite: Task Smoke">
+
+
+    <!-- All Task -->
+    <test name="SmokeTests_All_TASK_APIs" preserve-order="true">
+        <classes>
+            <class
+                    name="taskTestSuites.taskAddShift.TEST001_Custom_ActiveShift" />
+            <class
+                    name="taskTestSuites.taskAddTasks.TEST001_Section_ActiveShift" />
+            <class
+                    name="taskTestSuites.taskAssign.taskEquipmentAssign.TEST001_RearLoaders_Available_HHRefuse_Section1_Task1_StartedShift" />
+            <class
+                    name="taskTestSuites.taskAssign.taskPersonAssign.TEST001_2SW_HHRefuse_Section1_Task1_StartedShift" />
+            <class
+                    name="taskTestSuites.taskAssignmentType.TEST001_NextDay_WithoutUnavailable"/>
+            <class
+                    name="taskTestSuites.taskAssignmentType.TEST002_Minerva4256"/>
+            <class
+                    name="taskTestSuites.taskDeleteShift.TEST001_with_2Section" />
+            <class
+                    name="taskTestSuites.taskDeleteTask.TEST002_with_EquipmentAssigned" />
+            <class
+                    name="taskTestSuites.taskLoadPersonnel.TEST001_1SUP_1SW" />
+            <class
+                    name="taskTestSuites.taskPartialRoute.TEST001_Minerva4360" />
+            <class
+                    name="taskTestSuites.taskPartialRoute.TEST002_Minerva4359" />
+            <class
+                    name="taskTestSuites.taskTemplate.TEST001_Save_LoadTemplate_with_HHRefuse_CleaningBaskets" />
+            <class
+                    name="taskTestSuites.taskUnassign.taskEquipmentUnassign.TEST001_RearLoaders_HHRefuse_Section2_NotStartedShift" />
+            <class
+                    name="taskTestSuites.taskUnassign.taskPersonUnassign.TEST001_SW_HHRefuse_Section2_NotStartedShift" />
+            <class
+                    name="taskTestSuites.taskAssign.taskSupervisionAssign.TEST001_Section_Header" />
+        </classes>
+    </test>
+</suite> <!-- Suite -->

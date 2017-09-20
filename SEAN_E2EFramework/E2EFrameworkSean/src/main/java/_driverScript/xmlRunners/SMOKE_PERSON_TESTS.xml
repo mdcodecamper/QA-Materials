@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite: Person Smoke">
+    <!--  ******************* All Board Related ******************* -->
+    <test name="SmokeTests_All_Board_APIs" preserve-order="true">
+        <classes>
+            <class
+                    name="boardTestSuites.TEST001_DisplayBoard_Visibility_MINERVA_3933"/>
+        </classes>
+    </test>
+    <!--  ******************* All Board Related ******************* -->
+    <test name="SmokeTests_Recent_Activities" preserve-order="true">
+        <classes>
+            <class
+                    name="recentActivities.person.TEST001_PERSON_DETACH_Recent_Activities_MINERVA_3916"/>
+        </classes>
+    </test>
+
+    <!--  ******************* All Person *******************  -->
+    <test name="SmokeTests_All_PERSON_APIs" preserve-order="true">
+        <classes>
+            <!--  ******************* PERSON DETACH ******************* -->
+            <class
+                    name="personTestSuites.personDetach.ADD.TEST001_DETACH_ADD_SUP_Curr_To_Plus3_Validate_Present_Past_Future_MINERVA_3789"/>
+            <class
+                    name="personTestSuites.personDetach.EDIT.TEST001_DETACH_EDIT_SUP_From_A_Curr_To_Plus2"/>
+            <class
+                    name="personTestSuites.personDetach.DELETE.TEST001_DETACH_DELETE_SUP_From_A_Curr_To_Plus2"/>
+
+            <!--  ******************* PERSON MDA ******************* -->
+            <class
+                    name="personTestSuites.personMda.ADD.TEST001_MDA_ADD_SW_Curr_To_Plus3"/>
+            <class
+                    name="personTestSuites.personMda.EDIT.TEST001_MDA_EDIT_SW_Curr_To_Plus2"/>
+            <class
+                    name="personTestSuites.personMda.DELETE.TEST001_MDA_DELETE_SW_Curr_To_Plus2"/>
+            <!--  ******************* PERSON SPECIAL POSITION ******************* -->
+            <class
+                    name="personTestSuites.personSpPosition.ADD.TEST001_SPECIAL_POS_ADD_SW_From_Curr_To_Plus3"/>
+            <class
+                    name="personTestSuites.personSpPosition.EDIT.TEST002_SPECIAL_POS_EDIT_SW_OpenDate_To_AnyValidDate"/>
+            <class
+                    name="personTestSuites.personSpPosition.DELETE.TEST001_SPECIAL_POS_DELETE_SW_From_Curr_To_Plus2"/>
+
+            <!--  ******************* PERSON UNAVAILABLE ******************* -->
+            <class
+                    name="personTestSuites.personUnavailable.ADD.TEST001_UNAVAILABLE_ADD_SW_Curr_To_Curr"/>
+            <class
+                    name="personTestSuites.personUnavailable.EDIT.TEST001_UNAVAILABLE_EDIT_SW_Curr_To_Plus2"/>
+            <class
+                    name="personTestSuites.personUnavailable.DELETE.TEST001_UNAVAILABLE_DELETE_SW_Curr_To_Plus2"/>
+            <class
+                    name="personTestSuites.personUnavailable.CANCEL.TEST001_REVERSE_CANCEL_CHART"/>
+
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->

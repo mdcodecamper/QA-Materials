@@ -1,0 +1,13 @@
+Tuesday outline:
+
+	--- Introduction
+	--- SDLC
+	--- Application Type
+
+Thursday Outline:
+	
+	--- STLC
+	--- Test Plan
+	--- Test Case
+	--- HomeWork
+

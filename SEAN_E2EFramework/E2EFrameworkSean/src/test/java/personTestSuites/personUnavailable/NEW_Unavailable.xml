@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Person Unavailable Test"  preserve-order="true">
+		<classes>
+			<!-- ALL Tests are defined below -->
+			<class
+					name="personTestSuites.personUnavailable.ADD.NEW.TEST005_NEW_ADD_Unavailable_SICK_ML_Temporary_Current_To_Future" />
+			<class
+					name="personTestSuites.personUnavailable.ADD.NEW.TEST006_NEW_ADD_Unavailable_LODI_ML_Home_Current_To_Current" />
+			<class
+					name="personTestSuites.personUnavailable.ADD.NEW.TEST007_NEW_ADD_Unavailable_LODI_On_Open_Ended_Detached_PersonA_To_B_ML_Home" />
+			<class
+					name="personTestSuites.personUnavailable.ADD.NEW.TEST008_NEW_ADD_Unavailable_SICK_On_Open_Ended_Detached_Person_A_To_B_ML_Temporary" />
+			<class
+					name="personTestSuites.personUnavailable.ADD.NEW.TEST009_NEW_ADD_Unavailable_LODI_On_Long_Term_Detached_Person_A_To_B_ML_Home" />
+			<class
+					name="personTestSuites.personUnavailable.ADD.NEW.TEST010_NEW_ADD_Unavailable_SICK_On_Long_Term_Detached_Person_A_To_B_ML_Temporary" />
+			<class
+				name="personTestSuites.personUnavailable.EDIT.TEST003_NEW_EDIT_Unavailable_SICK_Long_Term_ML_Home" />
+			<class
+					name="personTestSuites.personUnavailable.EDIT.TEST004_NEW_EDIT_Unavailable_LODI_Long_Term_ML_Temporary" />
+			<class
+					name="personTestSuites.personUnavailable.DELETE.TEST003_NEW_DELETE_Unavailable_SICK_Long_Term_ML_Home" />
+			<class
+					name="personTestSuites.personUnavailable.DELETE.TEST004_NEW_DELETE_Unavailable_LODI_Long_Term_ML_Temporary" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

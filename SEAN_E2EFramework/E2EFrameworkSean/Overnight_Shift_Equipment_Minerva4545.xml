@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite: Equipment Midnight Smoke">
+    <!-- All Equipment -->
+    <test name="SmokeTest-Equipment Midnight Shift Change" preserve-order="true">
+        <classes>
+            <class
+                    name="equipmentTestSuites.equipmentDown.Add.TEST005_DownEquipment_RearLoaders_from_ActiveTask_PreviousDay_Replace" />
+            <class
+                    name="equipmentTestSuites.equipmentDown.Edit.TEST002_MinervaSno27_ForOverNightExecution_PreviousDay" />
+            <class
+                    name="equipmentTestSuites.equipmentSnowUpdate.TEST010_Active_Task_PreviousDay_Minerva4545" />
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Detach.TEST010_Minerva4545_04" />
+            <!--<class
+                     name="equipmentTestSuites.equipmentDetach.Detach.TEST011_Minerva4545_04_With_Down_Condition" /> -->
+
+         </classes>
+     </test>
+
+ </suite> <!-- Suite -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="All Person Detach Regression Tests" preserve-order="true" >
+		<classes>
+
+            <class
+					name="personTestSuites.personDetach.ADD.TEST002_DETACH_ADD_SW_Curr_To_Plus3" />
+			<class
+					name="personTestSuites.personDetach.EDIT.TEST002_DETACH_EDIT_SW_From_B_Curr_To_Plus2" />
+			<class
+					name="personTestSuites.personDetach.DELETE.TEST002_DETACH_DELETE_SW_From_B_Curr_To_Plus2" />
+
+			<class
+					name="personTestSuites.personDetach.ADD.TEST001_DETACH_ADD_SUP_Curr_To_Plus3_Validate_Present_Past_Future_MINERVA_3789" />
+			<class
+					name="personTestSuites.personDetach.EDIT.TEST001_DETACH_EDIT_SUP_From_A_Curr_To_Plus2" />
+			<class
+				name="personTestSuites.personDetach.DELETE.TEST001_DETACH_DELETE_SUP_From_A_Curr_To_Plus2" />
+			<class
+					name="personTestSuites.personDetach.ADD.TEST003_DETACH_ADD_SW_MINERVA_2832" />
+			<class
+				name="personTestSuites.personDetach.ADD.TEST004_DETACH_ADD_SW_PERMANENT_MINERVA_3788" />
+			<class
+					name="personTestSuites.personDetach.ADD.TEST005_DETACH_AND_SP_POS_ADD_MINERVA_3830" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

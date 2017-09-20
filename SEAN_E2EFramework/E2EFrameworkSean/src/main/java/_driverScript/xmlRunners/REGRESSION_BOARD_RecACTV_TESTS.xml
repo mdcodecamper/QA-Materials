@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite: Person AND Board">
+
+    <!-- All Person -->
+    <test name="REGRESSION_All_PERSON_BOARD_recACT_APIs"  preserve-order="true">
+        <classes>
+            <!--  ******************* DISPLAY BOARD *******************-->
+            <class name="boardTestSuites.TEST001_DisplayBoard_Visibility_MINERVA_3933" />
+
+            <!--  ******************* RECENT ACTIVITIES  *******************-->
+            <class
+                    name="recentActivities.person.TEST001_PERSON_MDA_Recent_Activities" />
+
+
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite: All Person, Equipment and Task APIs">
+    <!-- All Board Related -->
+   <!-- <test name="Regression_All_Board_APIs" preserve-order="true">
+        <classes>
+            <class
+                    name="boardTestSuites.TEST001_DisplayBoard_Visibility_MINERVA_3933"/>
+        </classes>
+    </test>-->
+
+    <!-- All RecentActivities Related -->
+    <!--<test name="Regression_All_Recent_Activities" preserve-order="true">
+        <classes>
+            <class
+                    name="recentActivities.perosn.TEST001_PERSON_DETACH_Recent_Activities_MINERVA_3916"/>
+        </classes>
+    </test>-->
+
+    <!-- All Person -->
+   <!-- <test name="Regression_All_Person_APIs" preserve-order="true">
+        <classes>
+            &lt;!&ndash; PERSON DETACH &ndash;&gt;
+            <class
+                    name="personTestSuites.personDetach.ADD.TEST002_DETACH_ADD_SW_Curr_To_Plus3"/>
+            <class
+                    name="personTestSuites.personDetach.EDIT.TEST002_DETACH_EDIT_SW_From_B_Curr_To_Plus2"/>
+            <class
+                    name="personTestSuites.personDetach.DELETE.TEST002_DETACH_DELETE_SW_From_B_Curr_To_Plus2"/>
+            <class
+                    name="personTestSuites.personDetach.ADD.TEST001_DETACH_ADD_SUP_Curr_To_Plus3_Validate_Present_Past_Future_MINERVA_3789"/>
+            <class
+                    name="personTestSuites.personDetach.EDIT.TEST001_DETACH_EDIT_SUP_From_A_Curr_To_Plus2"/>
+            <class
+                    name="personTestSuites.personDetach.DELETE.TEST001_DETACH_DELETE_SUP_From_A_Curr_To_Plus2"/>
+
+            &lt;!&ndash; PERSON UNAVAILABLE &ndash;&gt;
+            <class
+                    name="personTestSuites.personUnavailable.ADD.TEST001_UNAVAILABLE_ADD_SW_Curr_To_Curr"/>
+            <class
+                    name="personTestSuites.personUnavailable.ADD.TEST002_UNAVAILABLE_ADD_SUP_Curr_To_Plus3"/>
+            <class
+                    name="personTestSuites.personUnavailable.EDIT.TEST001_UNAVAILABLE_EDIT_SW_Curr_To_Plus2"/>
+            <class
+                    name="personTestSuites.personUnavailable.DELETE.TEST001_UNAVAILABLE_DELETE_SW_Curr_To_Plus2"/>
+
+            &lt;!&ndash; PERSON MDA &ndash;&gt;
+            <class name="personTestSuites.personMda.ADD.TEST001_MDA_ADD_SUP_Curr_Plus1_To_Plus3_Validate_Present_Past_Future"/>
+            <class
+                    name="personTestSuites.personMda.ADD.TEST001_MDA_ADD_SW_Curr_To_Plus3"/>
+            <class
+                    name="personTestSuites.personMda.EDIT.TEST001_MDA_EDIT_SW_Curr_To_Plus2"/>
+            <class
+                    name="personTestSuites.personMda.DELETE.TEST001_MDA_DELETE_SW_Curr_To_Plus2"/>
+
+            &lt;!&ndash; PERSON SPECIAL POSITION &ndash;&gt;
+            <class
+                    name="personTestSuites.personSpPosition.ADD.TEST001_SPECIAL_POS_ADD_SW_From_Curr_To_Plus3"/>
+            <class
+                    name="personTestSuites.personSpPosition.ADD.TEST002_SPECIAL_POS_ADD_Validate_Present_Past_Future"/>
+            <class
+                    name="personTestSuites.personSpPosition.EDIT.TEST002_SPECIAL_POS_EDIT_SW_OpenDate_To_AnyValidDate"/>
+            <class
+                    name="personTestSuites.personSpPosition.EDIT.TEST001_SPECIAL_POS_EDIT_SW_CurrentDate_To_OpenDate"/>
+            <class
+                    name="personTestSuites.personSpPosition.DELETE.TEST001_SPECIAL_POS_DELETE_SW_From_Curr_To_Plus2"/>
+
+        </classes>
+    </test>--> <!-- Test -->
+    <!-- All Equipment -->
+    <test name="Regression_All_EQUIPMENT_APIs" preserve-order="true">
+        <classes>
+
+            <!--ALL Tests are defined below -->
+
+         <!--  <class
+                   name="equipmentTestSuites.equipmentDetach.Accept.TEST001_RearLoaders_Available"/>
+           <class
+                   name="equipmentTestSuites.equipmentDetach.Accept.TEST002_DualBins_Available"/>
+           <class
+                   name="equipmentTestSuites.equipmentDetach.Accept.TEST003_Minerva3326"/>
+           <class
+                   name="equipmentTestSuites.equipmentDetach.Cancel.TEST001_RearLoaders_Available"/>
+           <class
+                   name="equipmentTestSuites.equipmentDetach.Cancel.TEST002_DualBins_Available"/>
+           <class
+                   name="equipmentTestSuites.equipmentDetach.Detach.TEST001_RearLoaders_Available"/>
+           <class
+                   name="equipmentTestSuites.equipmentDetach.Detach.TEST002__DualBins_Relay_RecycMisc"/>-->
+           <class
+                   name="equipmentTestSuites.equipmentDetach.Detach.TEST003_RearLoaders_Down"/>
+           <class
+                   name="equipmentTestSuites.equipmentDetach.Detach.TEST004_Detach_A_to_B_to_C"/>
+           <class
+                   name="equipmentTestSuites.equipmentDetach.Detach.TEST005_Detach_Accept_Cancel_Pagination"/>
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Detach.TEST006_RearLoaders_RelayCollection" />
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Detach.TEST007_Detach_Cancel" />
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Detach.TEST008_Detach_Accept_Refresh" />
+            <class
+                    name="equipmentTestSuites.equipmentDetach.Detach.TEST009_Detach_Change_Time" />
+            <class
+                   name="equipmentTestSuites.equipmentDown.Add.TEST001_RearLoaders_Available_3Codes"/>
+           <class
+                   name="equipmentTestSuites.equipmentDown.Add.TEST002_Down_and_Up_History"/>
+           <class
+                   name="equipmentTestSuites.equipmentDown.Add.TEST003_MechanicalBrooms_ServiceField_FreeText"/>
+           <class
+                   name="equipmentTestSuites.equipmentDown.Edit.TEST001_RearLoaders_2Codes"/>
+           <class
+                    name="equipmentTestSuites.equipmentGrouping.TEST001_Equipment_Groups_Expand_Collapse"/>
+            <class
+                    name="equipmentTestSuites.equipmentGrouping.TEST002_Equipment_Groups_Counts_Verification1"/>
+            <class
+                   name="equipmentTestSuites.equipmentSnowUpdate.TEST001_RearLoaders_Available"/>
+           <class
+                   name="equipmentTestSuites.equipmentSnowUpdate.TEST002_RelayMisc_Down_SnowUpdate_Up"/>
+           <class
+                   name="equipmentTestSuites.equipmentSnowUpdate.TEST003_Equipment_FrontEndLoader"/>
+           <class
+                   name="equipmentTestSuites.equipmentSnowUpdate.TEST004_Up_and_Down_Snow_Readiness"/>
+           <class
+                   name="equipmentTestSuites.equipmentSnowUpdate.TEST005_Snow_History_Pagination"/>
+           <class
+                   name="equipmentTestSuites.equipmentSnowUpdate.TEST006_Snow_Readiness_Rules"/>
+            <class
+                    name="equipmentTestSuites.equipmentSnowUpdate.TEST009_Update_Equipment_and_Snow_Readiness" />
+            <class
+                   name="equipmentTestSuites.equipmentUp.TEST001_RearLoaders"/>
+           <class
+                   name="equipmentTestSuites.equipmentUp.TEST002_Minerva2979"/>
+           <class
+                    name="equipmentTestSuites.equipmentUp.TEST004_Equipment_UP_Time_Update"/>
+           <class
+                   name="equipmentTestSuites.equipmentUpdateLoad.TEST001_RearLoaders_Available_to_RelayOrganics"/>
+           <class
+                   name="equipmentTestSuites.equipmentUpdateLoad.TEST002_DualBins_Available_to_RelayCollection"/>
+           <class
+                   name="equipmentTestSuites.equipmentUpdateLoad.TEST003_Minerva4030"/>
+           <class
+                   name="equipmentTestSuites.equipmentUpdateLoad.TEST004_Down_to_RolloverRecycMisc_to_Down_to_Empty"/>
+           <class
+                   name="equipmentTestSuites.equipmentUpdateLoad.TEST005_Relay_to_Detach_to_Accept_to_Empty"/>
+           <class
+                   name="equipmentTestSuites.equipmentUpdateLoad.TEST006_Load_History_Pagination"/>
+    </classes>
+</test>
+
+<!-- All Task -->
+    <test name="Regression_All_TASK_APIs" preserve-order="true">
+        <classes>
+            <class
+                    name="taskTestSuites.taskAddShift.TEST001_Custom_ActiveShift"/>
+            <class
+                    name="taskTestSuites.taskAddTasks.TEST001_Section_ActiveShift"/>
+            <class
+                    name="taskTestSuites.taskAssign.taskEquipmentAssign.TEST001_RearLoaders_Available_HHRefuse_Section1_Task1_StartedShift"/>
+            <class
+                    name="taskTestSuites.taskAssign.taskPersonAssign.TEST001_2SW_HHRefuse_Section1_Task1_StartedShift"/>
+            <class
+                    name="taskTestSuites.taskAssign.taskEquipmentAssign.TEST002_Minerva3350"/>
+            <class
+                    name="taskTestSuites.taskAssign.taskEquipmentAssign.TEST003_ActiveShift_EndTask"/>
+            <class
+                    name="taskTestSuites.taskAssign.taskSupervisionAssign.TEST001_Section_Header"/>
+            <class
+                    name="taskTestSuites.taskAssign.taskSupervisionAssign.TEST002_Minerva4407"/>
+            <class
+                    name="taskTestSuites.taskAssignmentType.TEST001_NextDay_WithoutUnavailable"/>
+            <class
+                    name="taskTestSuites.taskAssignmentType.TEST002_Minerva4256"/>
+            <class
+                    name="taskTestSuites.taskAssignmentType.TEST003_Minerva4356"/>
+            <class
+                    name="taskTestSuites.taskAssignmentType.TEST004_Minerva4357"/>
+            <class
+                    name="taskTestSuites.taskDeleteShift.TEST001_with_2Section"/>
+            <class
+                    name="taskTestSuites.taskDeleteTask.TEST001_with_Section"/>
+            <class
+                    name="taskTestSuites.taskDeleteTask.TEST002_with_EquipmentAssigned"/>
+            <class
+                    name="taskTestSuites.taskLoadPersonnel.TEST001_1SUP_1SW"/>
+            <class
+                    name="taskTestSuites.taskPartialRoute.TEST002_Minerva4359"/>
+            <class
+                    name="taskTestSuites.taskPartialRoute.TEST001_Minerva4360"/>
+            <class
+                    name="taskTestSuites.taskPartialRoute.TEST003_Minerva4413"/>
+            <class
+                    name="taskTestSuites.taskPartialRoute.TEST004_Assign_SW_to_Section_NoSection_StartedShift"/>
+            <class
+                    name="taskTestSuites.taskTemplate.TEST001_Save_LoadTemplate_with_HHRefuse_CleaningBaskets"/>
+            <class
+                    name="taskTestSuites.taskTemplate.TEST002_Load_Template_Minerva4328"/>
+            <class
+                    name="taskTestSuites.taskUnassign.taskEquipmentUnassign.TEST001_RearLoaders_HHRefuse_Section2_NotStartedShift"/>
+            <class
+                    name="taskTestSuites.taskUnassign.taskPersonUnassign.TEST001_SW_HHRefuse_Section2_NotStartedShift"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="All Person Special Position Tests"  preserve-order="true">
+		<classes>
+
+			<class
+				name="personTestSuites.personSpPosition.ADD.TEST001_SPECIAL_POS_ADD_SW_From_Curr_To_Plus3" />
+			<class
+					name="personTestSuites.personSpPosition.ADD.TEST002_SPECIAL_POS_ADD_Validate_Present_Past_Future" />
+			<class
+					name="personTestSuites.personSpPosition.EDIT.TEST001_SPECIAL_POS_EDIT_SW_CurrentDate_To_OpenDate" />
+			<class
+				name="personTestSuites.personSpPosition.EDIT.TEST002_SPECIAL_POS_EDIT_SW_OpenDate_To_AnyValidDate" />
+			<class
+					name="personTestSuites.personSpPosition.DELETE.TEST001_SPECIAL_POS_DELETE_SW_From_Curr_To_Plus2" />
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
